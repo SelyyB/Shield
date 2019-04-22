@@ -81,4 +81,4 @@ client.on("message", async (message) => {
     }
 });
 
-client.login(token.token);
+client.login(process.env.token);
